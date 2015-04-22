@@ -1,0 +1,92 @@
+.table{
+    width: 100%;
+}
+.table th {
+    font-weight: bold;}
+ .table th, .table td{
+    line-height: 20px;
+    padding: 8px;
+}
+ .table td {
+    text-align: left;
+}
+ .table tbody tr.success gt  td {
+    background-color: #dff0d8;
+}
+ .table tbody tr.error gt  td {
+    background-color: #f2dede;
+}
+ .table tbody tr.warning gt  td {
+    background-color: #fcf8e3;
+}
+ .table tbody tr.info gt  td {
+    background-color: #d9edf7;
+}
+ .table tbody + tbody {
+    border-top: 2px solid #ddd;
+}
+ .table .table {
+    background-color: #fff;
+}
+ .table-border {
+    border-top: 1px solid #ddd;
+}
+ .table-border th, .table-border td{
+    border-bottom: 1px solid #ddd;
+}
+ .table-bg thead th {
+    background-color: #f5fafe;
+}
+ .table-bordered {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-collapse: separate;
+    border-color: #ddd #ddd #ddd #ddd;
+    border-image: none;
+    border-style: solid solid solid solid;
+    border-width: 1px 1px 1px 0;
+}
+ .table-bordered th, .table-bordered td{
+    border-left: 1px solid #ddd;
+}
+ .table-border.table-bordered {
+    border-bottom: 0 none;
+}
+ .table-striped tbody gt  tr:nth-child(2n+1) gt  td, .table-striped tbody gt  tr:nth-child(2n+1) gt  th{
+    background-color: #f9f9f9;
+}
+ .table-condensed th, .table-condensed td{
+    padding: 4px 5px;
+}
+ .table-hover tbody tr:hover td, .table-hover tbody tr:hover th{
+    background-color: #f5f5f5;
+}
+ .table tbody tr.active, .table tbody tr.active gt  td, .table tbody tr.active gt  th, .table tbody tr .active{
+    background-color: #f5f5f5 !important;
+}
+ .table tbody tr.success, .table tbody tr.success gt  td, .table tbody tr.success gt  th, .table tbody tr .success{
+    background-color: #dff0d8 !important;
+}
+ .table tbody tr.warning, .table tbody tr.warning gt  td, .table tbody tr.warning gt  th, .table tbody tr .warning{
+    background-color: #fcf8e3 !important;
+}
+ .table tbody tr.danger, .table tbody tr.danger gt  td, .table tbody tr.danger gt  th, .table tbody tr .danger{
+    background-color: #f2dede !important;
+}
+ .table .text-c th, .table .text-c td{
+    text-align: center;
+}
+ .table .text-r th, .table .text-r td{
+    text-align: right;
+}
+ .table th.text-l, .table td.text-l{
+    text-align: left !important;
+}
+ .table th.text-c, .table td.text-c{
+    text-align: center !important;
+}
+ .table th.text-r, .table td.text-r{
+    text-align: right !important;
+}

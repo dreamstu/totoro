@@ -1,0 +1,17 @@
+{
+  "name": "totoro",
+  "version": "0.0.1",
+  "description": "(中文在后)",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^0.3.1",
+    "grunt-ftp": "^2.0.0"
+  }
+}
