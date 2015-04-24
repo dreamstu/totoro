@@ -996,7 +996,10 @@ input[type="tel"] {
 
   .navigation__item {
     width: 100%;
-    margin: 0 0 .4em 0; } }
+    margin: 0 0 .4em 0; }
+
+  .post-back {
+    right: 0px; } }
 @media all and (max-width: 340px) {
   .panel-main__inner {
     padding: 0 5%; }
@@ -1010,6 +1013,9 @@ input[type="tel"] {
 
   .btn, .navigation__item a {
     display: block;
-    margin-bottom: .4em; } }
+    margin-bottom: .4em; }
+
+  .post-back {
+    right: 0px; } }
 
 /*# sourceMappingURL=totoro.css.map */
