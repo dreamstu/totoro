@@ -82,10 +82,10 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 ::selection {
-  background: #fcfdfe; }
+  background: #bdcfec; }
 
 ::-moz-selection {
-  background: #fcfdfe; }
+  background: #bdcfec; }
 
 a {
   text-decoration: none;
